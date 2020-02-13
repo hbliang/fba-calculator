@@ -1,0 +1,19 @@
+{
+  "name": "fba-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -r esm tests/*.js"
+  },
+  "author": "Ben",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "mocha": "^7.0.1"
+  }
+}
